@@ -1,0 +1,82 @@
+/* Body element */
+body {
+    background-color: #eeeeeb;
+    color: rgba(0,0,0,0.8);
+    }
+
+
+    .light-mode body {
+    background-color: #c0b53b0f;
+    color: #738ef9;
+    }
+    .light-mode .el-drawer {
+        background-color: #c0b53b5b;
+        color: #2b474e(255, 234, 234, 0.99) ;
+    }
+
+
+    /* */
+    .dark-mode body {
+    background-color: #e1734a;
+    color: rgba(0, 0, 0, 0.99)
+    }
+    .dark-mode .backcolor{
+        background-color: #0e184a;
+    }
+    .dark-mode .el-drawer {
+        background-color: rgba(236, 182, 182, 0.99);
+        color: #3b4ea8
+      }
+
+
+
+    /* */
+    .gray-mode body {
+    background-color: #c0b53b1c;
+    color: #2b474e;
+    }
+    .gray-mode .backcolor{
+        background-color: rgba(50, 64, 63, 0.98);
+        color: #FFFFFF;
+    }
+    .gray-mode .el-drawer {
+        background-color: #4e300aef;
+        color: #a6a79f;
+    }
+    
+
+
+    /* Active link */
+    .router-link-active {
+    border-bottom: 1px solid rgba(50, 64, 63, 0.2);
+    }
+    .dark-mode .router-link-active {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .gray-mode .router-link-active {
+    border-bottom: 1px solid rgba(207, 207, 207, 0.5);
+    }
+    /* input */
+    textarea,
+    input, select{
+    padding:.5em;
+    display: block;
+    max-width: auto;
+    margin-top: .2em;
+    padding: .5em;
+    border: 1px solid rgba(111, 109, 109,.2);
+    border-radius: 4px;
+    background: none;
+    }
+    .dark-mode textarea,
+    .dark-mode input,
+    .gray-mode select  {
+    border: 1px solid rgba(199, 197, 197, 0.8);
+    }
+    .gray-mode textarea,
+    .gray-mode input,
+    .gray-mode select {
+    border: 1px solid rgba(41, 41, 45, 0.8);
+    } 
+
+   
